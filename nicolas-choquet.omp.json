@@ -1,0 +1,111 @@
+{
+        "final_space": true,
+        "osc99": false,
+        "console_title": false,
+        "console_title_style": "",
+        "console_title_template": "",
+        "blocks": [
+                {
+                        "type": "prompt",
+                        "alignment": "left",
+                        "horizontal_offset": 0,
+                        "vertical_offset": 0,
+                        "segments": [
+                                {
+                                        "type": "root",
+                                        "style": "powerline",
+                                        "powerline_symbol": "\uE0B0",
+                                        "forground": "#111111",
+                                        "background": "#ffff66",
+                                        "properties": {
+                                                "root_icon": "\uF0E7"
+                                        }
+                                },
+                                {
+                                        "type": "session",
+                                        "style": "diamond",
+                                        "foreground": "#ffffff",
+                                        "background": "#c386f1",
+                                        "leading_diamond": "\uE0B6",
+                                        "trailing_diamond": "\uE0B0"
+                                },
+                                {
+                                        "type": "path",
+                                        "style": "powerline",
+                                        "powerline_symbol":  "\uE0B0",
+                                        "foreground": "#ffffff",
+                                        "background": "#ff479c",
+                                        "properties": {
+                                                "style": "folder",
+                                                "mapped_locations": {
+                                                        "/mnt/c/temp": "\ue799",
+                                                        "C:\\temp": "\ue799"
+                                                }
+                                        }
+                                },
+                                {
+                                        "type": "node",
+                                        "style": "powerline",
+                                        "powerline_symbol": "\uE0B0",
+                                        "foreground": "#ffffff",
+                                        "background": "#6CA35E",
+                                        "properties": {
+                                                "prefix": " \uE718 "
+                                        }
+                                },
+                                {
+                                        "type": "git",
+                                        "style": "powerline",
+                                        "powerline_symbol": "  ",
+                                        "invert_powerline": false,
+                                        "foreground": "#193549",
+                                        "foreground_templates": null,
+                                        "background": "#fffb38",
+                                        "background_templates": null,
+                                        "leading_diamond": "",
+                                        "trailing_diamond": "",
+                                        "properties": {
+                                                "display_stash_count": true,
+                                                "display_upstream_icon": true,
+                                                "display_status": true
+                                        }
+                                },
+                                {
+                                        "type": "exit",
+                                        "style": "diamond",
+                                        "foreground": "#ffffff",
+                                        "background": "#00897b",
+                                        "leading_diamond": "",
+                                        "trailing_diamond": "\uE0B4",
+                                        "properties": {
+                                                "display_exit_code": false,
+                                                "always_enabled": true,
+                                                "error_color": "#e91e63",
+                                                "color_background": true,
+                                                "prefix": "<#193549>\uE0B0</> \uE23A"
+                                        }
+                                },
+                                {
+                                        "type": "time",
+                                        "style": "plain",
+                                        "foreground": "#007ACC",
+                                        "properties": {
+                                                "time_format": "15:04:05"
+                                        }
+                                },
+                                {
+                                        "type": "executiontime",
+                                        "style": "powerline",
+                                        "powerline_symbol": "\uE0B0",
+                                        "foreground": "#ffffff",
+                                        "background": "#8800dd",
+                                        "properties": {
+                                                "threshold": 500,
+                                                "style": "austin",
+                                                "prefix": " <#fefefe>\ufbab</> "
+                                        }
+                                }
+                        ]
+                }
+        ]
+}
